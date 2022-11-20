@@ -40,6 +40,5 @@ main.o: main.c NumClass.h
 	$(CC) $(CFLAGS) -fpic -c main.c
 #-------------------------------------------------------------#
 .PHONY: clean all
-
 clean:
 	rm -f *.o *so *a $(PROG)
